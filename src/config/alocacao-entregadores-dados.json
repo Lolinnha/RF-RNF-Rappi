@@ -1,0 +1,126 @@
+{
+    "entregadores": [
+      null,
+      {
+        "desempenho": 4.8,
+        "divida": 50,
+        "id": 1,
+        "lucro": 2000.5,
+        "nome": "João Silva",
+        "numero_entregas": 120,
+        "saldo": 150.75
+      },
+      {
+        "desempenho": 4.5,
+        "divida": 20,
+        "id": 2,
+        "lucro": 1200,
+        "nome": "Maria Souza",
+        "numero_entregas": 90,
+        "saldo": 80.3
+      },
+      {
+        "desempenho": 4.9,
+        "divida": 0,
+        "id": 3,
+        "lucro": 3400,
+        "nome": "Carlos Oliveira",
+        "numero_entregas": 150,
+        "saldo": 220
+      },
+      {
+        "desempenho": 4.2,
+        "divida": 10,
+        "id": 4,
+        "lucro": 800,
+        "nome": "Ana Pereira",
+        "numero_entregas": 60,
+        "saldo": 50
+      },
+      {
+        "desempenho": 5,
+        "divida": 0,
+        "id": 5,
+        "lucro": 5000,
+        "nome": "Pedro Santos",
+        "numero_entregas": 200,
+        "saldo": 300.5
+      },
+      {
+        "desempenho": 4.6,
+        "divida": 5,
+        "id": 6,
+        "lucro": 1800,
+        "nome": "Larissa Mota",
+        "numero_entregas": 85,
+        "saldo": 110
+      },
+      {
+        "desempenho": 4.3,
+        "divida": 30,
+        "id": 7,
+        "lucro": 950,
+        "nome": "Rafael Almeida",
+        "numero_entregas": 75,
+        "saldo": 70.2
+      },
+      {
+        "desempenho": 4.7,
+        "divida": 0,
+        "id": 8,
+        "lucro": 2900,
+        "nome": "Juliana Castro",
+        "numero_entregas": 140,
+        "saldo": 190.8
+      },
+      {
+        "desempenho": 4.1,
+        "divida": 15,
+        "id": 9,
+        "lucro": 1300,
+        "nome": "Fernando Lopes",
+        "numero_entregas": 95,
+        "saldo": 60
+      },
+      {
+        "desempenho": 4.9,
+        "divida": 0,
+        "id": 10,
+        "lucro": 4100,
+        "nome": "Camila Rodrigues",
+        "numero_entregas": 180,
+        "saldo": 210
+      }
+    ],
+    "monitoramento": {
+      "numero_entregadores_conectados": {
+        "quantidade": 8
+      },
+      "numero_requisicoes": {
+        "ultimos_10_minutos": 132
+      },
+      "requisicoes": {
+        "dc7357fd-dccb-4383-b743-6c6bbe6a9481": {
+          "endpoint": "/entregadores/5",
+          "id_requisicao": "dc7357fd-dccb-4383-b743-6c6bbe6a9481",
+          "media_resposta": 1.0357,
+          "ultima_atualizacao": "2025-02-19T11:01:36Z"
+        }
+      },
+      "tempo_resposta": {
+        "histórico": [
+          0.9123,
+          1.0156,
+          0.8874,
+          1.1102,
+          1.0025,
+          0.9753,
+          0.9981,
+          0.9022,
+          1.0357,
+          1.045
+        ],
+        "media_ultimas_10": 0.9502
+      }
+    }
+  }
