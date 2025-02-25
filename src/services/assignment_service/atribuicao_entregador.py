@@ -15,5 +15,4 @@ async def atribuir_pedido(pedido_id: str, latitude: float, longitude: float):
     ref = db.reference(f"pedidos/{pedido_id}/candidatos")
     ref.set(melhores_entregadores)
 
-    # Simula notificação (substituir por push real)
     return {"message": "Pedido enviado aos entregadores", "candidatos": melhores_entregadores}
