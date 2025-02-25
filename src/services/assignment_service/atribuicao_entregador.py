@@ -1,7 +1,6 @@
 from fastapi import APIRouter, HTTPException
-import firebase_admin
 from firebase_admin import db
-from services
+from services.alocation_service.alocacao_entregador import calcular_melhores_entregadores
 
 router = APIRouter()
 

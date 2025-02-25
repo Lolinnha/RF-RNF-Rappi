@@ -13,6 +13,7 @@ def buscar_entregadores_por_raio(ponto_central, raio_metros) -> List[str]:
     entregadores = ref.get()
     entregadores_filtrados = []
 
+    print(entregadores)
     for id, dados in entregadores.items():
         if not dados.get("disponivel") or dados.get("saldo", 0) <= 0:
             continue

@@ -1,5 +1,4 @@
 from fastapi import APIRouter, HTTPException
-import firebase_admin
 from firebase_admin import db
 
 router = APIRouter()

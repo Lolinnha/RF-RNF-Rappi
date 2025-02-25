@@ -1,11 +1,6 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter
 from pydantic import BaseModel
-import firebase_admin
-from firebase_admin import credentials, db
-
-# Inicializando Firebase
-cred = credentials.Certificate("path/to/firebase_credentials.json")
-firebase_admin.initialize_app(cred, {"databaseURL": "https://your-database.firebaseio.com"})
+from firebase_admin import db
 
 router = APIRouter()
 
